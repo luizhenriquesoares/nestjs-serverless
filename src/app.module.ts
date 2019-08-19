@@ -1,10 +1,9 @@
 import { Module } from '@nestjs/common';
-import { AWSController } from './modules/aws/aws.controller';
-import { AWSService } from './modules/aws/aws.service';
+import { AWSService } from './modules/infrastructure/aws/aws.service';
 
 @Module({
   imports: [],
-  controllers: [AWSController],
+  controllers: [],
   providers: [AWSService],
 })
 export class AppModule {}

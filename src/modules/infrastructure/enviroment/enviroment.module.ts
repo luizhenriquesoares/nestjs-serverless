@@ -16,8 +16,8 @@ import * as path from 'path';
 export class EnviromentModule {
   static getEnvPath(): string {
     return path.normalize(path.join(process.cwd(),`${
-            !process.env.NODE_ENV ? 'development' : process.env.NODE_ENV.trim()
-        }.env`,
+        !process.env.NODE_ENV ? 'development' : process.env.NODE_ENV.trim()
+      }.env`,
     ));
   }
 }
