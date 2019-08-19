@@ -25,7 +25,10 @@
     "@nestjs/platform-express": "^6.0.0",
     "aws-lambda": "^0.1.2",
     "aws-serverless-express": "^3.3.5",
+    "dotenv": "^8.1.0",
     "express": "^4.16.4",
+    "is-empty": "^1.2.0",
+    "joi": "^14.3.1",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "rxjs": "^6.3.3"
