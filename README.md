@@ -5,7 +5,6 @@ This is an example of creating a function that runs as nestjs using the serverle
 
 ### add
 - `src/index.ts`
-- `src/swagger.ts`
 - `serverless.yml`
 
 ### change
