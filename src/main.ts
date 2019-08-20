@@ -5,6 +5,7 @@ import * as path from 'path';
 import * as empty from 'is-empty'
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { EnviromentService } from './modules/infrastructure/enviroment/enviroment.service';
+import "reflect-metadata";
 
 async function bootstrap() {
 
@@ -26,11 +27,11 @@ async function bootstrap() {
     app.enableCors();
 
     const swaggerDocBuilder = new DocumentBuilder()
-    .setTitle('NEST-SERVERLESS')
-    .setDescription('Boiplerplate NestJs with serverless framework')
-    .setVersion('1.0.0')
-    .setSchemes(useHttps ? 'https' : 'http')
-    .setBasePath('/api/v1');
+        .setTitle('NEST-SERVERLESS')
+        .setDescription('Boiplerplate NestJs with serverless framework')
+        .setVersion('1.0.0')
+        .setSchemes(useHttps ? 'https' : 'http')
+        .setBasePath('/api/v1');
     
     if (useHttps) {
         swaggerDocBuilder.addBearerAuth('Authorization', 'header');

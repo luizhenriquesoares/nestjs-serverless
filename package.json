@@ -20,9 +20,12 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@aws/dynamodb-data-mapper": "^0.7.3",
+    "@aws/dynamodb-data-mapper-annotations": "^0.7.3",
     "@nestjs/common": "^6.0.0",
     "@nestjs/core": "^6.0.0",
     "@nestjs/platform-express": "^6.0.0",
+    "@types/aws-sdk": "^2.7.0",
     "aws-lambda": "^0.1.2",
     "aws-serverless-express": "^3.3.5",
     "dotenv": "^8.1.0",
@@ -30,9 +33,11 @@
     "is-empty": "^1.2.0",
     "joi": "^14.3.1",
     "log4js": "^5.0.0",
-    "reflect-metadata": "^0.1.12",
+    "reflect-metadata": "^0.1.13",
     "rimraf": "^2.6.2",
-    "rxjs": "^6.3.3"
+    "rxjs": "^6.3.3",
+    "util": "^0.12.1",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "@nestjs/swagger": "^3.0.2",

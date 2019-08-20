@@ -4,6 +4,7 @@
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
+    "types": ["reflect-metadata"],
     "experimentalDecorators": true,
     "target": "es6",
     "sourceMap": true,

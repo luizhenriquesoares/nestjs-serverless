@@ -5,6 +5,7 @@ import { Server } from 'http';
 import { ExpressAdapter } from '@nestjs/platform-express';
 import * as serverless from 'aws-serverless-express';
 import * as express from 'express';
+import "reflect-metadata";
 
 let cachedServer: Server;
 

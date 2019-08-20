@@ -1,0 +1,9 @@
+{
+  "id": "string",
+  "name": "string",
+  "limitMinimum": 0,
+  "limitMaximum": 0,
+  "percent": 0,
+  "range": "string",
+  "urlPhoto": "string"
+}
